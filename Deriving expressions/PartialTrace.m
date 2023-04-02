@@ -1,13 +1,13 @@
 function [result] = PartialTrace(n1, n2)
-%PartialTrace4 ´Ë´¦ÏÔÊ¾ÓĞ¹Ø´Ëº¯ÊıµÄÕªÒª
-%   ´Ë´¦ÏÔÊ¾ÏêÏ¸ËµÃ÷
+%PartialTrace4 æ­¤å¤„æ˜¾ç¤ºæœ‰å…³æ­¤å‡½æ•°çš„æ‘˜è¦
+%   æ­¤å¤„æ˜¾ç¤ºè¯¦ç»†è¯´æ˜
 result=0;
 temp=1;
 I=eye(2);
 s0=[1;0];
 s1=[0;1];
 base={};
-%×ÓÏµÍ³n2µÄ»ùµ×»ñÈ¡
+%å­ç³»ç»Ÿn2çš„åŸºåº•è·å–
 for i=1:log2(size(n1,1))
     if ~ismember(i,n2)
         if size(base,2)==0
@@ -34,7 +34,7 @@ for i=1:log2(size(n1,1))
         end    
     end    
 end
-%Æ«¼£ÔËËã
+%offset operations
 for i=1:size(base,2)
     result=result+base{i}'*n1*base{i};
 end
