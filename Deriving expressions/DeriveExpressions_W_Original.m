@@ -17,7 +17,7 @@ assume(r,'real')
 assume((0<=r)&(r<=1))
 
 
-%Puli operators
+%Pauli operators
 sigmax = [0 1; 1 0];
 sigmaz = [1 0; 0 -1];
 
