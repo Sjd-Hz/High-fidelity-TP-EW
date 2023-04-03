@@ -1,4 +1,4 @@
-% Numerical simulation,(controlled teleportation) average teleportation fidelity and teleportation
+% Numerical simulation (Fig.4),(controlled teleportation) average teleportation fidelity and teleportation
 % success probability of: TP-EAM via W state, TP-EW via Bell state with q=0 and
 % q=r, the MR framework and the original controlled teleportation protocols
 % without any protection 
