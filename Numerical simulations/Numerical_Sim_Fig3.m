@@ -1,4 +1,4 @@
-% Numerical simulation, average teleportation fidelity and teleportation
+% Numerical simulation (Fig.3), average teleportation fidelity and teleportation
 % success probability of TP-EW for q=0 and q=r and the MR framework
 
 clear, clc
