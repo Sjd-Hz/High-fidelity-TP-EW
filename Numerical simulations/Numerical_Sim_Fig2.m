@@ -70,6 +70,7 @@ surf(q, r, g_tot_MR);
 xlabel('\itq')
 ylabel('\itr')
 zlabel('Total teleportation success probability')  
+colormap(jet)
 colorbar
 set(gca,'fontsize',12,'fontname','Times');
 hold off
